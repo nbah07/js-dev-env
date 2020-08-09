@@ -1,0 +1,21 @@
+{
+  "name": "javascript-boilerplate",
+  "version": "1.0.0",
+  "description": "Javascript development environment",
+  "//field": "these double quote can be used as comments",
+  "author": "nbah",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server",
+    "dev": "nodemon -e html,css ./server.js",
+    "nodemon": "nodemon -e html,css ./server.js",
+    "inspect": "nodemon --inspect ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "open": "^7.1.0"
+  }
+}
